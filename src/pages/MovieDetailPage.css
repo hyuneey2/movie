@@ -1,0 +1,141 @@
+.movie-detail-container {
+    color: white;
+  }
+  
+  .movie-banner {
+    height: 500px;
+    background-size: contain;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+  .movie-info {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 800px; 
+    margin: 0 auto;
+  }
+  
+  .movie-poster {
+    width: 100%;
+    max-width: 200px; 
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+  
+  .movie-info h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .movie-info p {
+    font-size: 1.1em;
+  }
+  
+  .cast-container {
+    margin: 20px;
+  }
+  
+  .cast-list {
+    display: flex;
+    overflow-x: auto;
+    gap: 15px;
+  }
+  
+  .cast-item {
+    text-align: center;
+  }
+  
+  .cast-item img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+  }
+  
+  .cast-item p {
+    margin-top: 5px;
+  }
+  
+  .movie-detail-container {
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .movie-backdrop img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .movie-info h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .movie-cast {
+    margin-top: 30px;
+  }
+  
+  .cast-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    gap: 15px;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .cast-list li {
+    text-align: center;
+  }
+  
+  .cast-list img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 8px;
+  }
+  
+  .movie-hero-banner {
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .hero-overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 30px;
+    border-radius: 12px;
+    color: white;
+    max-width: 800px;
+    text-align: center;
+    backdrop-filter: blur(6px);
+  }
+  
+  .hero-overlay h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero-overlay p {
+    margin: 10px 0;
+    font-size: 1.1rem;
+  }
+  
+  .hero-overlay .overview {
+    font-style: italic;
+    opacity: 0.9;
+  }
+  
